@@ -17,7 +17,7 @@
  "scripts": {
   "start": "react-scripts start",
   "build": "react-scripts build",
-  "start:prod": "serve -s build -l $PORT",
+  "start:prod": "serve -s build -l tcp://0.0.0.0:$PORT",
   "test": "react-scripts test",
   "eject": "react-scripts eject"
 }
